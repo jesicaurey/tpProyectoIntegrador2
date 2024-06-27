@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <title>Contacto</title>
+</head>
+<body>
+    
+    <div class="contenedor-circulos">
+        <div class="circulo"></div>
+        <div class="circulo" style="animation-delay: 1s;"></div>
+        <div class="circulo" style="animation-delay: 2s;"></div>
+      </div>
+        <header>
+            <h1>Michi, el Gato</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="preferencias.html">Preferencias</a></li>
+                    <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                    <li><a class="active" href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="contenedor-formulario">
+            <form>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribí aquí tu nombre" required minlength="3">
+                <label for="apellido">Apellido: </label>
+                <input type="text" id="apellido" name="apellido" placeholder="Escribí aquí tu apellido" required minlength="3">
+                <label for="mail">Email: </label>
+                <input type="email" id="mail" name="mail" placeholder="Escribí aquí tu mail" required>
+                <label for="cantidad">cantidad gatos: </label>
+                <input type="text" id="cantidad" name="cantidad" placeholder="Escribí aquí cuantos gatos tenes?" required>
+                <label for="pais">País: </label>
+                <select name="pais" id="pais">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Perú">Perú</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="España">España</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Ecuaador">Ecuaador</option>
+                </select>
+                <label for="comentario">Comentario: </label>
+                <textarea name="comentario" id="comentario" placeholder="Escribí aquí tu comentario"></textarea>
+    
+                <label for="motivo">Motivo de contacto con su majestad: </label>
+                <input type="radio" id="motivo" name="motivo"><i>Soy fan</i>
+                <input type="radio" id="motivo" name="motivo"><i>Quiero una firma</i>
+                <input type="radio" id="motivo" name="motivo"><i>Quiero donar piedritas</i>
+                <input type="radio" id="motivo" name="motivo"><i>quiero donar royal canin</i>
+    
+                <input type="submit" value="Enviar">
+    
+            </form>
+        </div>
+
+        <footer class="footer">
+            <p>Derechos reservados &copy; 2024</p>
+        </footer>
+</body>
+</html>
